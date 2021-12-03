@@ -1,6 +1,6 @@
 from flask_cors import CORS
 from flask import request, Response,Flask, jsonify
-from controllers.controller_calc_esp import CalcEspController
+from controller_calc_esp import CalcEspController
 import json
 
 app = Flask(__name__)

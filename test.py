@@ -1,8 +1,8 @@
 import unittest
 
-from controller_calc_esp import CalcEspController
+import controller_calc_esp
 
-func = CalcEspController.calcular_raiz
+func = controller_calc_esp.CalcEspController.calcular_raiz
 
 class Test_calc(unittest.TestCase):
 
